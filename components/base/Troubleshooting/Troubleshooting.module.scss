@@ -1,0 +1,30 @@
+.troubleshooting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .troubleshootingCard,
+  .supportCard {
+    border: 2px black solid;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(35, 63, 117);
+    color: #fff;
+  }
+
+  .troubleshootingCard__header,
+  .supportCard__header {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .troubleshootingCard__body,
+  .supportCard__body {
+    padding: 2rem;
+
+    & ul li:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
