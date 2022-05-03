@@ -1,30 +1,18 @@
 .header {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   background-color: rgb(35, 63, 117);
   color: #fff;
   padding: 2rem;
   font-size: 3vw;
   text-transform: uppercase;
+  height: 100px;
+  align-items: center;
 
   @media (min-width: 1200px) {
     & {
       font-size: 2vw;
       flex-direction: row;
     }
-  }
-
-  .logo {
-    display: flex;
-    flex-grow: 1;
-  }
-
-  &,
-  .logo {
-    align-items: center;
-  }
-
-  .description {
-    flex-grow: 2;
   }
 }

@@ -9,41 +9,24 @@ const Contact = () => {
   return (
     <div className={styles.contact}>
       <div className={styles.form}>
+        <h2>Formulaire de contact</h2>
         <form onSubmit={sendMessage}>
           <div className={styles.formInputs}>
             <label htmlFor="nom">
               Nom :
-              <input
-                type="text"
-                name="nom"
-                id="nom"
-                autoComplete="nom"
-                required
-              />
+              <input type="text" name="nom" id="nom" autoComplete="nom" required />
             </label>
 
             <label htmlFor="prenom">
               Prénom :
-              <input
-                type="text"
-                name="prenom"
-                id="prenom"
-                autoComplete="nom"
-                required
-              />
+              <input type="text" name="prenom" id="prenom" autoComplete="nom" required />
             </label>
           </div>
 
           <div className={styles.formInputs}>
             <label htmlFor="email">
-              Email :
-              <input
-                type="email"
-                name="email"
-                id="email"
-                autoComplete="email"
-                required
-              />
+              <p>Email :</p>
+              <input type="email" name="email" id="email" autoComplete="email" required />
             </label>
 
             <label htmlFor="telephone">
@@ -73,7 +56,9 @@ const Contact = () => {
             </label>
           </div>
 
-          <button className={styles.formSubmitButton} type="submit">Envoyer</button>
+          <button className={styles.formSubmitButton} type="submit">
+            Envoyer
+          </button>
         </form>
       </div>
     </div>

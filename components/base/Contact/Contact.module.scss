@@ -4,6 +4,12 @@
     color: #fff;
     background-color: rgb(35, 63, 117);
 
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
     .formInputs,
     .formTextArea {
       display: flex;
@@ -17,13 +23,19 @@
     }
 
     input {
-      margin-top: .5rem;
-      margin-bottom: .5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       width: 250px;
     }
 
     textarea {
-      margin-top: .5rem;
+      margin-top: 0.5rem;
+    }
+
+    .formSubmitButton {
+      display: block;
+      margin : auto;
+      margin-top: 1rem;
     }
   }
 }

@@ -5,18 +5,20 @@
 
   .troubleshootingCard,
   .supportCard {
-    border: 2px black solid;
     text-align: center;
     width: 100%;
-    max-width: 300px;
-    background-color: rgb(35, 63, 117);
-    color: #fff;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 10px 2px rgb(0 0 0 / 20%);
   }
 
   .troubleshootingCard__header,
   .supportCard__header {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
 
   .troubleshootingCard__body,
